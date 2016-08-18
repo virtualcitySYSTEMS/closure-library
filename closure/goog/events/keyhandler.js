@@ -414,7 +414,7 @@ goog.events.KeyHandler.prototype.handleEvent = function(e) {
 
   keyCode = goog.events.KeyCodes.normalizeKeyCode(keyCode);
   var key = keyCode;
-  var keyIdentifier = be.keyIdentifier;
+  var keyIdentifier = be.key;
 
   // Correct the key value for certain browser-specific quirks.
   if (keyCode) {
